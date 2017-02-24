@@ -1,0 +1,418 @@
+/* Custom Styles */
+/*-----------------------------------------
+	General
+------------------------------------------*/
+@font-face {
+			font-family: 'bebas';
+			src: url('../fonts/custom-fonts/BebasNeueBold.ttf') format('truetype'),
+           url('../fonts/custom-fonts/BebasNeueRegular.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+}
+@font-face {
+			font-family: 'interstate';
+			src: url('../fonts/custom-fonts/Interstate-Regular.ttf') format('truetype');
+}
+
+body{
+  font-family: 'interstate',Oswald, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color:#807e83;
+}
+a{
+  color: #0094d2;
+}
+a:hover{
+  color: #0094d2;
+  text-decoration: none;
+}
+hr{
+  height: 1px;
+  background-color: #999;
+}
+/* radious classes*/
+.rd{
+  border-radius: 20px;
+}
+.rd2{
+  border-radius: 7px;
+}
+/* Border Classes*/
+.brd{
+  border: 2px solid #edf6e3;
+}
+.bt{
+	border-right: 1px solid #f16649;
+}
+/* Text Transformation Classes*/
+.txt-cap{
+  text-transform: capitalize;
+}
+.txt-upp{
+  text-transform: uppercase;
+}
+.al-r{
+	text-align: right;
+}
+/*-----------------------------------------
+	Header
+------------------------------------------*/
+.header{
+  padding-top:40px;
+  padding-bottom: 40px;
+  background-color: #f16649;
+}
+.header [class*="col-"] {
+  color: #ffffff;
+}
+.header h2{
+  font-family:'bebas',Oswald, Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.header a{
+	color: #ffffff;
+}
+.be-inform{
+float: left;
+height: 87px;
+margin-top: 16px;
+margin-right: 10px;
+}
+.be-inform2{
+float: left;
+height: 87px;
+margin-top: 16px;
+margin-right: 10px;
+opacity: 0.5;
+}
+
+
+/*-----------------------------------------
+Font Size and Styles Classes
+------------------------------------------*/
+.bold{
+	font-weight: bold;
+}
+.f-st1{
+  font-family:'bebas',Oswald, Arial, sans-serif;
+}
+.f16{
+  font-size: 16px;
+}
+.f44{
+  font-size: 44px;
+}
+/*-----------------------------------------
+Headings
+------------------------------------------*/
+h1{
+  font-family:'bebas',Oswald, Arial, sans-serif;
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+
+/*-----------------------------------------
+ Top Left
+------------------------------------------*/
+#top-left{}
+#top-left  h2{
+    font-family:'interstate',Oswald, Arial, sans-serif;
+    color: #f16649;
+    font-size: 17px;
+		font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  #top-left  h3{
+      font-family:'interstate',Oswald, Arial, sans-serif;
+      color: #f16649;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+#top-left p{
+  /*font-size: 14px;
+  font-weight: normal;*/
+}
+/*-----------------------------------------
+ Top Right
+------------------------------------------*/
+#top-right{
+   box-shadow: 0px 0px 5px #888888;
+     border: 2px solid #A8A8A8;
+}
+#top-right  h1{
+    font-family:'bebas',Oswald, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding: 20px 0 20px 15px;
+  }
+  #top-right  h2{
+      text-transform: capitalize;
+      letter-spacing: -2px;
+    }
+  #top-right  h3{
+      font-family:'interstate',Oswald, Arial, sans-serif;
+      color: #f16649;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+#top-right p{
+/*  font-size: 14px;
+  font-weight: normal;*/
+}
+.claculator{}
+.calculator img{
+	float: left;
+	margin-top: 25px;
+}
+.calculator p{
+	float: left;
+}
+.glyphicon-log-in{
+	color: #f16649;
+	font-size: 24px;
+	opacity: 0.6;
+}
+.glyphicon-download-alt{
+	color: #f16649;
+	font-size: 24px;
+	opacity: 0.6;
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
+.glyphicon-plus,
+.glyphicon-minus,
+.glyphicon-remove{
+	padding: 12px;
+	background-color: #0094d2;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 9px;
+}
+.glyphicon-pause{
+	padding: 12px;
+	background-color: #f16649;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 9px;
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+.block{
+	float: left;
+	margin-top: 6px;
+	margin-right: 12px;
+}
+
+/*-----------------------------------------
+ #Time-Use
+------------------------------------------*/
+.time-use{}
+.time-use .heading{
+	font-family:'bebas',Oswald, Arial, sans-serif;
+  font-size: 48px;
+	color: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+.time-use h2{
+	font-family:'interstate',Oswald, Arial, sans-serif;
+	font-size: 17px;
+	color: #f16649;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+  }
+	/*-----------------------------------------
+	 Price Period
+	------------------------------------------*/
+	.price-period{}
+
+	.price-period h2{
+		font-family:'interstate',Oswald, Arial, sans-serif;
+		font-size: 17px;
+		color: #f16649;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		text-align: center;
+	  }
+	.price-period  h3{
+    font-family:'interstate',Oswald, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+		margin-bottom: 0px;
+  }
+	/*-----------------------------------------
+	 Price Period
+	------------------------------------------*/
+	.eng-brd {
+			margin-bottom: 20px;
+		}
+	.eng-brd img.on-eng{
+		float: left;
+		width: 50px;
+		margin-top: 9px;
+	}
+
+	.eng-brd h3{
+	color: #333;
+	margin-left: 60px;
+	font-weight: bold;
+	text-transform: capitalize;;
+	margin-bottom: 10px;
+	}
+	.eng-brd img.eng-bar{
+	float: left;
+	height:68px;
+	margin-top: 19px;
+	}
+.eng-brd h2{
+			font-family:'bebas',Oswald, Arial, sans-serif;
+		  font-size: 40px;
+			color: inherit;
+			line-height: 33px;
+		  font-weight: bold;
+			float: left;
+		  text-transform: uppercase;
+		  }
+.fl-r{
+	float: right;
+}
+
+
+/*-----------------------------------------
+ Color Classes
+------------------------------------------*/
+.clr-1{
+  color: #f16649;
+}
+.clr-2{
+  color: #edf6e3;
+}
+.clr-5{
+  color: #e5e5e5;
+}
+.clr-6{
+  color: #0094d2;
+}
+.clr-7{
+  color: #fdefec;
+}
+.clr-8{
+  color: #807e83;
+}
+.clr-9{
+  color: #fdefec;
+}
+.clr-10{
+  color: #8cc63e;
+}
+.clr-11{
+  color: #fdb930;
+}
+.bg-clr-1{
+  background-color: #f16649;
+}
+.bg-clr-2{
+  background-color: #edf6e3;
+}
+.bg-clr-3{
+  background-color: #fdedcb;
+}
+.bg-clr-4{
+  background-color: #d8f3fa;
+}
+.bg-clr-5{
+  background-color: #e5e5e5;
+}
+.bg-clr-6{
+  background-color: #ffffff;
+}
+.bg-clr-7{
+  background-color: #fdefec;
+}
+
+/*-----------------------------------------
+	Margin classes
+------------------------------------------*/
+/* Margin Top Classes */
+.mg-0{
+  margin: 0px;
+}
+.mg-t0{
+  margin-top: 0px;
+}
+.mg-t5{
+  margin-top: 5px;
+}
+.mg-t10{
+  margin-top: 10px;
+}
+.mg-t20{
+  margin-top: 20px;
+}
+.mg-t30{
+  margin-top: 30px;
+}
+.mg-t40{
+  margin-top: 40px;
+}
+/* Margin Bottom Classes*/
+.mg-b0{
+  margin-bottom: 1px;
+}
+.mg-b10{
+  margin-bottom: 10px;
+}
+.mg-b20{
+  margin-bottom: 20px;
+}
+.mg-b30{
+  margin-bottom: 30px;
+}
+.mg-b40{
+  margin-bottom: 40px;
+}
+.mg-r10{
+	margin-right: 10px;
+}
+.mg-l30{
+	margin-left: 40px;
+}
+/*-----------------------------------------
+	Padding classes
+------------------------------------------*/
+.p-5{
+  padding: 5px;
+}
+.p-20{
+	padding: 20px;
+}
+.pl-15{
+  padding-left: 15px;
+}
+
+/*-----------------------------------------
+	footer
+------------------------------------------*/
+footer{
+  text-align: center;
+  margin-top: 40px;
+}
